@@ -1,0 +1,28 @@
+server:
+    port: 9000
+    contextPath: 
+
+spring: 
+    profiles:
+        active: dev
+    devtools.restart.exclude: static/**,public/**
+   
+
+    data:
+        jpa.repositories.enabled: true 
+        
+    freemarker:
+        check-template-location: false
+        
+    messages:
+        basename: messages
+    resources:
+        static-locations: classpath:/static/, file:/static/
+logging:
+    file: app.log
+    level:
+        root: INFO
+        org.springframework.web: INFO
+        com.hantsylabs.restexample.springmvc: DEBUG
+
+    

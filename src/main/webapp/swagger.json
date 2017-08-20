@@ -1,0 +1,21 @@
+{
+  "swagger" : "2.0",
+  "info" : {
+    "description" : "Protei Swagger",
+    "version" : "v1",
+    "title" : "Swagger spec for our REST API",
+    "termsOfService" : "Protei",
+    "contact" : {
+      "name" : "YOUSEF ATAYA",
+      "url" : "PROTEI",
+      "email" : "YOUSEF ATAYA(spring.development.house1987@gmail.com)"
+    },
+    "license" : {
+      "name" : "Company Licence",
+      "url" : "LICENSE-2.0.html"
+    }
+  },
+  "host" : "www.[host]:[port]",
+  "basePath" : "/v1",
+  "schemes" : [ "http", "https" ]
+}
