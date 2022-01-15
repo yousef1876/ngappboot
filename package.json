@@ -34,7 +34,7 @@
     "karma-junit-reporter": "^0.2.2",
     "protractor": "^2.1.0",
     "proxy-middleware": "^0.15.0",
-    "shelljs": "^0.2.6",
+    "shelljs": "^0.8.5",
     "url": "^0.11.0",
     "wiredep": "^2.2.2"
   },
